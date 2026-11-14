@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/2.1.css">
+        <title>Прайс-лист :: Йокагама: суши-бар</title>
+    </head>
+    <body>
+        <header>
+            <h1>Суши-бар<br>
+                <span class="bar-title"> </span></h1>
+        </header>
+        <main>
+            <h2>Прайс-лист</h2>
+              <table class="price-list">
+								<tr><th>Товар</th><th>Цена, руб.</th></tr>
+								<tr><th clospan="2">Суши</th></tr>
+								<tr><td>Чукка</td><td>40</td></tr>
+								<tr><td>Магуро</td><td rowspan="2">80</td></tr>
+           			<tr><td>Тобико</td></tr>
+    						<tr><th>Сашими</th><th></th></tr>
+    						<tr><td>Унаги</td><td>340</td></tr>
+    						<tr><td>Хамачи</td><td>400</td></tr>
+							</table>
+        </main>
+        <footer>
+            <address>Наш адрес: ул.Зеленая, 17.</address>
+						<p>copy; читатель книги.</p>
+				</footer>
+		</body>
+</html>
